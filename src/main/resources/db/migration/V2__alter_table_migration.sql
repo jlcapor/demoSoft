@@ -1,0 +1,6 @@
+ALTER TABLE users
+DROP
+COLUMN state;
+
+ALTER TABLE users
+    MODIFY status BIT (1) NOT NULL;
